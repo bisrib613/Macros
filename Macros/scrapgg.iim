@@ -1,0 +1,108 @@
+URL GOTO=https://groups.google.com/g/urlnya
+wait seconds=2
+set !extract_test_popup no
+TAG POS=1 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=3 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=5 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=7 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=9 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=11 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=13 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=15 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=17 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=19 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=21 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=23 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=25 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=27 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=29 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=31 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=33 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=35 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=37 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=39 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=41 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=43 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=45 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=47 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=49 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=51 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=53 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=55 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=57 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=59 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+
+EVENT TYPE=CLICK SELECTOR="#yDmH0d>C-WIZ>C-WIZ>DIV>C-WIZ>DIV>DIV:nth-of-type(2)>SPAN>DIV>DIV:nth-of-type(3)>SPAN>SPAN>SPAN" BUTTON=0
+wait seconds=2
+TAG POS=1 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=3 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=5 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=7 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=9 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=11 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=13 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=15 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=17 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=19 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=21 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=23 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=25 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=27 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=29 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=31 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=33 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=35 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=37 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+TAG POS=39 TYPE=A ATTR=class:ZLl54 EXTRACT=HREF
+saveas type=extract folder=* file=gg.csv 
+wait seconds=2
+tab close

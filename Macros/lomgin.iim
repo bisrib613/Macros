@@ -1,0 +1,16 @@
+﻿CLEAR
+set !errorignore yes
+set !datasource imel.csv
+url goto=https://accounts.google.com/signin/v2?hl=en
+SET uname EVAL("var s=\"{{!COL1}}\"; s.split('@')[0];")
+TAG POS=1 TYPE=INPUT ATTR=ID:identifierId&&CLASS:"whsOnd zHQkBf" CONTENT={{!COL1}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc qIypjc TrZEUc lw1w4b"
+WAIT SECONDS=2
+TAG POS=1 TYPE=INPUT ATTR=CLASS:"whsOnd zHQkBf" CONTENT={{!COL2}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc qIypjc TrZEUc lw1w4b"
+WAIT SECONDS=2
+'RECOVERY 
+TAG POS=1 TYPE=DIV ATTR=CLASS:vxx8jf 
+TAG POS=1 TYPE=input ATTR=ID:"knowledge-preregistered-email-response"&&CLASS:"whsOnd zHQkBf" CONTENT={{!COL3}}
+TAG POS=1 TYPE=BUTTON ATTR=CLASS:"VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc qIypjc TrZEUc lw1w4b"
+WAIT SECONDS=2
